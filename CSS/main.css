@@ -1,0 +1,232 @@
+::-webkit-scrollbar{
+  display:none;
+}
+
+.navbar-brand{
+  padding-left: 15px;
+  font-family: 'Shadows Into Light Two', fantasy;
+}
+
+#navbarSupportedContent{
+  padding-left: 10px;
+  font-family: 'Shadows Into Light Two', fantasy;
+  font-size: 1.125em;
+}
+
+#container, #about, #skills, #hobbies, #examples, #contact{
+  height: 97.5vh;
+  width: 100%;
+  position: relative;
+}
+
+#container .bg1{
+  width: 100%;
+  height: 100%;
+  background-image: url("/Img/img1.PNG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6{
+  background-attachment: fixed;
+}
+
+#about .bg2{
+  width: 100%;
+  height: 100%;
+  background-image: url("/Img/IMG_0750.PNG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+#skills .bg3{
+  width: 100%;
+  height: 100%;
+  background-image: url("/Img/IMG_0751.PNG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+#hobbies .bg4{
+  width: 100%;
+  height: 100%;
+  background-image: url("/Img/IMG_0752.PNG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+#examples .bg5{
+  width: 100%;
+  height: 100%;
+  background-image: url("/Img/IMG_0753.PNG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+#contact .bg6{
+  width: 100%;
+  height: 100%;
+  background-image: url("/Img/IMG_0754.PNG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+#container .title{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container h2{
+  font-family: 'Covered By Your Grace', fantasy;
+  font-size: 6em;
+  color: aliceblue;
+}
+
+#about .title{
+  width: 100%;
+  height: 13.5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutCon{
+  position: relative;
+}
+
+#about h2{
+  font-family: 'Covered By your Grace', fantasy;
+  font-size: 5em;
+  color: black;
+}
+
+.aboutImg img{
+  width: 45%;
+}
+
+.aboutText p{
+  font-family: 'Ubuntu', fantasy;
+  font-size: 1.125em;
+  font-weight: bold;
+  color: black;
+}
+
+#skills .title{
+  width: 100%;
+  height: 13.5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills h2{
+  font-family: 'Covered By your Grace', fantasy;
+  font-size: 5em;
+  color: aliceblue;
+}
+
+#hobbies .title{
+  width: 100%;
+  height: 13.5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hobbies h2{
+  font-family: 'Covered By your Grace', fantasy;
+  font-size: 5em;
+  color: black;
+}
+
+#examples .title{
+  width: 100%;
+  height: 13.5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#examples h2{
+  font-family: 'Covered By your Grace', fantasy;
+  font-size: 5em;
+  color: aliceblue;
+}
+
+#contact .title{
+  width: 100%;
+  height: 13.5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h2{
+  font-family: 'Covered By your Grace', fantasy;
+  font-size: 5em;
+  color: black;
+}
+
+.skillCon p {
+  font-family: 'Ubuntu', fantasy;
+  font-size: 1.125em;
+  font-weight: bold;
+  color: black;
+}
+
+.skillCon{
+  background-color: rgba(255, 255, 255, 0.75)
+}
+
+.hobbyCon p{
+  font-family: 'Ubuntu', fantasy;
+  font-size: 1.125em;
+  font-weight: bold;
+  color: black;
+}
+
+.hobbyCon{
+  background-color: rgba(255, 255, 255, 0.75)
+}
+
+.foot{
+  font-family: 'Covered By Your Grace', fantasy;
+  font-size: 1.5em;
+}
+
+.card{
+  width: 20rem;
+}
+
+/* .skillRow img{
+  width: 200px;
+} */

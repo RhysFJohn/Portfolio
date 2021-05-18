@@ -1,0 +1,10 @@
+.navbar-brand{
+  padding-left: 15px;
+  font-family: 'Shadows Into Light Two', fantasy;
+}
+
+#navbarSupportedContent{
+  padding-left: 10px;
+  font-family: 'Shadows Into Light Two', fantasy;
+  font-size: 1.125em;
+}
