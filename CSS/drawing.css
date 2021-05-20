@@ -14,3 +14,8 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
+
+h1{
+  font-family: 'Covered By Your Grace', fantasy;
+  font-size: 3em;
+}
