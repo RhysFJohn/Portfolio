@@ -8,3 +8,25 @@
   font-family: 'Shadows Into Light Two', fantasy;
   font-size: 1.125em;
 }
+
+body{
+  background-color: slategray;
+}
+
+.con1{
+  background-color: aliceblue;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+
+h1{
+  font-family: 'Shadows Into Light', fantasy;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+p{
+  font-family: 'Ubuntu', fantasy;
+  font-size: 1.5em;
+}
