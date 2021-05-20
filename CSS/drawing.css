@@ -12,4 +12,5 @@
 body{
   background-image: url("/Img/IMG_0771.jpeg");
   background-attachment: fixed;
+  background-size: cover;
 }
