@@ -22,7 +22,7 @@
 #container .bg1{
   width: 100%;
   height: 100%;
-  background-image: url("/Img/img1.PNG");
+  background-image: url("../Img/img1.PNG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +37,7 @@
 #about .bg2{
   width: 100%;
   height: 100%;
-  background-image: url("/Img/IMG_0750.PNG");
+  background-image: url("../Img/IMG_0750.PNG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,7 +48,7 @@
 #skills .bg3{
   width: 100%;
   height: 100%;
-  background-image: url("/Img/IMG_0751.PNG");
+  background-image: url("../Img/IMG_0751.PNG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +59,7 @@
 #hobbies .bg4{
   width: 100%;
   height: 100%;
-  background-image: url("/Img/IMG_0752.PNG");
+  background-image: url("../Img/IMG_0752.PNG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,7 +70,7 @@
 #examples .bg5{
   width: 100%;
   height: 100%;
-  background-image: url("/Img/IMG_0753.PNG");
+  background-image: url("../Img/IMG_0753.PNG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +81,7 @@
 #contact .bg6{
   width: 100%;
   height: 100%;
-  background-image: url("/Img/IMG_0754.PNG");
+  background-image: url("../Img/IMG_0754.PNG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,13 +125,9 @@
   color: black;
 }
 
-.aboutImg img{
-  width: 45%;
-}
-
 .aboutText p{
   font-family: 'Ubuntu', fantasy;
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: bold;
   color: black;
 }
@@ -231,3 +227,12 @@
   width: 200px;
 } */
 
+@media screen and (max-width: 600px){
+  .rowImg{
+    display: none;
+  }
+
+  .skillRow{
+    display: none;
+  }
+}
