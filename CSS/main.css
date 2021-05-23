@@ -227,7 +227,11 @@
   width: 200px;
 } */
 
-@media screen and (max-width: 600px){
+#egCard1{
+  width: 30rem;
+}
+
+@media screen and (max-width: 767px){
   .rowImg{
     display: none;
   }
@@ -235,4 +239,52 @@
   .skillRow{
     display: none;
   }
+
+  #hobCard1{
+    width: 14rem;
+  }
+
+  #hobCard2{
+    width: 14rem;
+  }
+
+  #hobCard3{
+    width: 14rem;
+  }
+
+  #hobCard4{
+    width: 14rem;
+  }
+
+  #egCard1{
+    width: 14rem;
+  }
+
+  #contactRow .card{
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  #contactRow .card{
+    width: 20rem;
+  }
+
+  
+}
+
+.skillCon ul {
+  list-style-type: none;
+
+}
+
+.skillCon h3{
+  font-family: 'Covered by your Grace', fantasy;
+  font-size: 2em;
+}
+
+.skillCon ul li{
+  font-family: 'Ubuntu', fantasy;
+  font-size: 1.25em;
+  font-weight: bold;
 }

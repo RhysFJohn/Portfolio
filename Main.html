@@ -61,7 +61,7 @@
           <p>Hi, My name is Rhys.</p>
           <p>I am an ambitious and flexible professional who developed a mature and accountable approach to any task or situation.</p>
           <p>I am keen to expand my knowledge on subjects such as coding, web development and developing software. I am trustworthy, timely and willing to learn new skills. In order to satisfy the needs of the company and its clients, I am well-organized and adaptable. I can work as part of a team and independently. I am proud of my communication skills because I think that they are the key to a productive and efficient workflow.</p>
-          <p>Working with Staples UK and Office Outlet, I have been able to gain retail experience, product knowledge and excellent customer service skills. I now seek a new position on my professional career as an apprentice in software development to gain professional experience.</p>
+          <p>Working at Staples UK and Office Outlet, I have been able to gain retail experience, product knowledge and excellent customer service skills. I now seek a new position on my professional career as an apprentice in full stack development to gain professional experience.</p>
           <a href="https://drive.google.com/file/d/1Us1kJJPmvT1Fau5eD-niUQEii3GHO8oR/view?usp=sharing" target="_blank"><button class="btn btn-primary">View CV</button></a>
       </div>
       <br>
@@ -117,11 +117,28 @@
     <br>
     <div class="container">
       <div class="row text-center skillCon">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aliquid! Neque maiores quasi iure officiis totam excepturi, saepe non, voluptatibus maxime, reiciendis numquam nesciunt rem laudantium praesentium expedita atque distinctio?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ab voluptatibus deleniti aliquam, quibusdam laudantium molestiae possimus at iste esse ut maxime vero consequatur cumque, vitae minima ad placeat quae!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quod, quaerat accusamus harum ipsum nemo perspiciatis magnam molestias suscipit ratione explicabo? Facilis, commodi laudantium. Optio quisquam rem voluptas officia pariatur?</p>
-      
+        <div class="col text-center">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="col text-center">
+          <h3>Creative Skills</h3>
+          <ul>
+            <li>Procreate</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Spark</li>
+            <li>Wondershare Filmora X</li>
+          </ul>
+        </div>
+        <div class="col text-center">
+          <p>Aside from the aforementioned skills, I also do have intermediate knowledge of other programming languages such as C++ and C#.</p>
+          <p>I am also familiar with the Microsoft Office Suite Package and other software from Adobe Creative Cloud such as Illusrator, Dreamweaver and Premiere.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -132,8 +149,8 @@
       <h2>Hobbies</h2>
     </div>
     <div class="container position-absolute top-50 start-50 translate-middle">
-      <div class="row" id="hobCards">
-        <div class="col-sm-3">
+      <div class="row row-cols-2" id="hobCards">
+        <div class="col">
           <div class="card text-center" id="hobCard1">
             <img src="../Img/games.jpg" class="card-img-top" alt="games">
             <div class="card-body">
@@ -142,7 +159,7 @@
           </div>
         </div>
   
-        <div class="col-sm-3">
+        <div class="col">
           <div class="card text-center" id="hobCard2">
             <img src="../Img/reading.jpg" class="card-img-top" alt="reading">
             <div class="card-body">
@@ -150,8 +167,8 @@
             </div>
           </div>       
         </div>
-  
-        <div class="col-sm-3">
+
+        <div class="col">
           <div class="card text-center" id="hobCard3">
             <a href="/Excerpt.html"><img src="../Img/writing.jpg" class="card-img-top" alt="writing"></a>
             <div class="card-body">
@@ -161,7 +178,7 @@
           </div>
         </div>
   
-        <div class="col-sm-3">
+        <div class="col">
           <div class="card text-center" id="hobCard4">
             <a href="/Drawing.html"><img src="../Img/img1.PNG" class="card-img-top" alt="Drawing"></a>
             <div class="card-body">
@@ -181,19 +198,19 @@
       <h2>Examples</h2>
     </div>
 
-    <div class="container">
-      <div class="row">
+    <div class="container mx-auto d-block">
+      <div class="row row-cols-2">
 
         <div class="col-md-3">
-          <div class="card">
-            <img src="../Img/Screenshot (127).png" class="card-img-top" alt="EG1">
+          <div class="card" id="egCard1">
+            <a href="https://rhysfjohn.github.io/TaskPlanner/"><img src="../Img/Screenshot (127).png" class="card-img-top" alt="EG1"></a>
             <div class="card-body">
               <p class="card-text">To Do WebApp</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
           <div class="card">
             <img src="..." class="card-img-top" alt="EG2">
             <div class="card-body">
@@ -209,7 +226,7 @@
               <p class="card-text">Sample Text</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
@@ -223,15 +240,23 @@
     </div>
 
     <div class="container">
-      <div class="row contactRow">
+      <div class="row d-flex justify-content-center" id="contactRow">
         <div class="col-sm-6">
-          <a href=" https://www.linkedin.com/in/rhys-f-john/"><img src="/Img/Lin.png" alt="LinkedIn"></a>
-          <p class="text-center">LinkedIn</p>
+          <div class="card bg-transparent border-0">
+            <a href=" https://www.linkedin.com/in/rhys-f-john/"><img src="/Img/Lin.png" class="card-img-top" alt="LinkedIn"></a>
+            <div class="card-body bg-white text-center rounded-bottom">
+              <p class="card-text">LinkedIn</p>
+            </div>
+          </div>
+       </div>
+       <div class="col-sm-6">
+         <div class="card bg-transparent border-0">
+          <a href="https://github.com/RhysFJohn"><img src="/Img/GitHub.png" class="card-img-top" alt="GitHub"></a>
+          <div class="card-body bg-white text-center rounded-bottom">
+            <p class="card-text">GitHub</p>
+           </div>
         </div>
-        <div class="col-sm-6">
-          <a href="https://github.com/RhysFJohn"><img src="/Img/GitHub.png" alt="GitHub"></a>
-          <p class="text-center">GitHub</p>    
-        </div>
+       </div>
       </div>
       <div class="row text-center">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam aliquam provident dignissimos officia, nobis temporibus harum totam dicta libero soluta laudantium molestias quaerat a consequuntur sint numquam, maxime beatae nisi.</p>
