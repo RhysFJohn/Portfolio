@@ -235,6 +235,10 @@
   width: 28rem;
 }
 
+#egCard3{
+  width: 30rem;
+}
+
 @media screen and (max-width: 740px){
   .rowImg{
     display: none;
@@ -265,6 +269,10 @@
   }
 
   #egCard2{
+    width: 14rem;
+  }
+
+  #egCard3{
     width: 14rem;
   }
 
@@ -315,6 +323,10 @@
   }
 
   #egCard2{
+    width: 9rem;
+  }
+
+  #egCard3{
     width: 9rem;
   }
 
